@@ -1,0 +1,273 @@
+/*!
+ * Name: 	Infinity
+ * Version: 1.0
+ * Updated: 28/05/2015
+ * Website:	http://audaindesigns.com
+ * Author:	Audain Designs
+ * Type:	Style - General
+ */
+
+/*-----------------------
+	Add-on's
+------------------------*/
+.uppercase{text-transform:uppercase;}
+.no-margin-bottom {margin-bottom:0!important;}
+.no-margin-top {margin-top:0!important;}
+.sub-title-margin {margin-top: 30px;margin-bottom: 50px;}
+.no-margin {margin:0!important;}
+.margin-sm {margin:15px 0px;}
+.margin-md {margin:30px 0px;}
+.margin-lg {margin:110px 0px;}
+.no-padding{padding:0!important;}
+.padding-sm {padding:15px 0px;}
+.padding-md {padding:50px 0px;}
+.padding-lg {padding:100px 0px;}
+.block {display:block;}
+.txt-sm {font-size:13px;}
+.txt-md {font-size:17px;}
+.txt-lg {font-size:30px;}
+.txt-xlg {font-size:50px;}
+.txt-strong {font-weight:700;}
+.scrollable {overflow-y: scroll;height: 100%;}
+
+/*-----------------------
+	General
+------------------------*/
+body {
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a, img, span, h3, p, i, li, .btn{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+a {
+	color:#FFF;
+}
+a:hover {
+	color:#FFF;
+}
+.documentation a {
+	color:#70E5E5;
+}
+
+/*-----------------------
+	Sections
+------------------------*/
+.documentation {
+	background:#35404A;
+}
+.documentation span {
+	color:#ccc;
+}
+
+/*-----------------------
+	Title Attributes
+------------------------*/
+span.main-heading {
+	color:#70E5E5;
+}
+span.sub-heading {
+	color:#fff;
+}
+.separator {
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	margin-top: 30px;
+}
+.p-lbl {
+	background-color: #C8C616;
+	padding: 5px 10px;
+	margin: 10px;
+	border-radius: 5px;
+	color: #fff!important;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+/*-----------------------
+	Push Menu
+------------------------*/
+.push-menu-button {
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	top: 35px;
+	left: 31px;
+	cursor:pointer;
+}
+.canvas-slid {
+	background-color: #000;
+}
+.push-menu-info {
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 0px 10px;
+	background-color: rgba(43, 195, 26, 0.5);
+	border-radius: 5px; 
+}
+.push-menu-info span {
+	color:#fff;
+}
+ul.push-menu-social, ul.footer-social {
+	margin: 15px 0px;
+}
+li.push-menu-social-item, li.footer-social-item {
+	display: inline-block;
+}
+li.push-menu-social-item i.fa, li.footer-social-item i.fa {
+	width: 30px;
+	height: 30px;
+	line-height: 2.2;
+	border-radius: 50%;
+}
+.btn-store-menu img {
+	margin: 0 auto;
+	height: 40px;
+}
+ul.cover-available-on-menu, ul.available-on-menu {
+	display:table;
+	margin:10px auto;
+	padding: 3px 10px;
+	border-radius: 5px;
+}
+ul.cover-available-on-menu li, ul.available-on-menu li {
+	display:inline-block;
+	font-weight:500;
+}
+ul.cover-available-on-menu li span.cover-availability, ul.available-on-menu li span.landing-availability {
+	font-size: 13px;
+}
+ul.cover-available-on-menu li i.fa, ul.available-on-menu li i.fa {
+	font-size: 20px;
+	padding:5px;
+}
+.cd-headline i {
+  font-style: normal;
+}
+
+/*-----------------------
+	Tips
+------------------------*/
+.tip {
+	background-color: rgba(255, 255, 255, 0.2)	;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 5px 0px;
+}
+
+/*-----------------------
+	Getting started
+------------------------*/
+#getting-started ul li {
+	padding: 5px 0px;
+}
+
+/*-----------------------
+	Cover Social
+------------------------*/
+ul.cover-footer-social{
+	margin:15px 0px;
+	padding:0;
+}
+ul.cover-footer-social li {
+	display:inline-block;
+	padding: 10px;
+
+}
+ul.cover-footer-social li a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 2.2;
+	border-radius: 50%;
+	color:#fff;
+	opacity:1;
+	margin:0;
+}
+ul.cover-footer-social li a:hover, ul.cover-footer-social li a:focus{
+	opacity:0.7
+}
+
+/*-----------------------
+	Buttons
+------------------------*/
+button:focus, button:hover {
+	border:0;
+	outline:none;
+}
+.btn {
+	border:0;
+	border-radius:0;
+}
+.btn-i-xs {
+	border-radius: 5px;
+	margin:10px 0px;
+	padding:5px 10px;
+	letter-spacing:2px;
+}
+.btn-i-sm {
+	border-radius: 5px;
+	margin:10px 0px;
+	padding:10px 15px;
+	letter-spacing:2px;
+}
+.btn-i-md {
+	border-radius: 5px;
+	margin:10px 0px;
+	padding:15px 20px;
+	letter-spacing:2px;
+}
+.btn-i-lg {
+	border-radius: 5px;
+	margin:10px 0px;
+	padding:20px 25px;
+	letter-spacing:2px;
+}
+.btn-primary {
+	background-color: #70E5E5;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	opacity: 1;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+	background-color: #70E5E5;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	color:#fff;
+	opacity:0.7;
+}
+.btn-submit {
+	background-color: #449d44;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	opacity: 1;
+}
+.btn-submit:active, .btn-submit:focus, .btn-submit:hover {
+	background-color: #449d44;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	color:#fff;
+	opacity:0.7;
+}
+a.btn-enter {
+	border-radius: 5px;
+	margin: 10px 0px;
+	letter-spacing:1px;
+	font-weight:700;
+	opacity:1;
+	margin: 20px 0px 10px 0px;
+}
+a.btn-enter:hover, .btn-enter:focus {
+	opacity:0.7;
+}
+
+/*-----------------------
+	Animations
+------------------------*/
+.wow {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0.3s;
+}
