@@ -2,4 +2,6 @@
 Infinity is a free bootstrap app startup template
 
 June 18
-- Amended style.css
+- Initial File Commit
+- amended style.css
+- amended html files
