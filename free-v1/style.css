@@ -44,9 +44,6 @@ a, img, span, h3, p, i, li, .btn{
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 }
-p{
-	line-height:1.5;
-}
 a {
 	color:#FFF;
 }
@@ -134,7 +131,6 @@ section:hover span.section-title::after {
 	text-transform: uppercase;
 	font-size: 20px;
 	margin-bottom: 20px;
-	letter-spacing: 2px;
 }
 @media (max-width: 480px) {
 	.section-title {
@@ -293,13 +289,13 @@ ul.cover-available-on-menu li i.fa, ul.available-on-menu li i.fa {
 	font-size: 17px;
 }
 span.quote-person {
-	color: #70E5E5;
+	color: #333;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 span.quote-person-company {
-	color: #FFF;
+	color: #333;
 	font-size: 11px;
 	padding: 0 10px;
 }
@@ -376,16 +372,6 @@ span.quote-person-company {
 }
 .landing-available-on i.fa {
 	font-size:15px;
-}
-
-/*-----------------------
-	Landing Page Header
-------------------------*/
-.landing-heading{
-	margin-bottom:30px;
-}
-.landing-content {
-	margin:50px 0px;
 }
 
 /*-----------------------
@@ -478,12 +464,9 @@ span.quote-person-company {
 	font-weight:600;
 	text-transform: uppercase;
 	font-size: 20px;
-	letter-spacing: 2px;
 }
-.app-feature-box p {
+.app-feature-box span {
 	color: #747474;
-	line-height:1.5;
-	font-size:17px;
 }
 .icon-box:after {
 	position: absolute;
@@ -563,22 +546,15 @@ span.quote-person-company {
 	padding-right: 1px;
 	border-radius: 50%;
 }
-.overview-text {
-	font-size: 17px;
-	line-height:1.5;
-}
 .app-overview-box h3 {
 	color: #333;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 20px;
 	margin-bottom: 20px;
-	letter-spacing: 2px;
 }
-.app-overview-box p {
+.app-overview-box span {
 	color: #747474;
-	line-height:1.5;
-	font-size:17px;
 }
 .overview-device-wrapper {
 	position: relative;
@@ -603,7 +579,7 @@ span.quote-person-company {
 	border-radius: 5px;
 	display: inline-block;
 	padding: 5px 10px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 .testimonial-box .company {
 	font-weight: 400;
@@ -620,7 +596,6 @@ span.quote-person-company {
 }
 .feature-extra-list li {
 	padding: 10px 0px;
-	font-size:17px;
 }
 .feature-extra-list i.fa {
 	margin-right: 10px;
@@ -725,10 +700,6 @@ label.error {
 ------------------------*/
 .owl-theme .owl-controls .owl-page span {
 	border-radius:0;
-}
-.item-clickable img {
-	width:100%;
-	min-width:100%;
 }
 .item-clickable {
 	position:relative;
@@ -848,7 +819,7 @@ button:focus, button:hover {
 }
 a.btn-store {
 	border-radius: 5px;
-	margin: 10px 15px 10px 0px;
+	margin: 10px 0px;
 	opacity:1;
 }
 a.btn-store:hover, .btn-store:focus {
@@ -878,13 +849,13 @@ a.btn-store-menu:hover, .btn-store-menu:focus {
 	background:transparent!important;
 }
 .btn-primary {
-	background-color: rgba(69, 82, 94, 0.85);
-	border: 2px solid #45525E;
+	background-color: #70E5E5;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 	opacity: 1;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-	background-color: rgba(69, 82, 94, 0.85);
-	border: 2px solid #45525E;
+	background-color: rgba(112, 229, 229, 0.5);
+	border: 2px solid #70E5E5;
 	opacity:0.7;
 }
 .btn-submit {
