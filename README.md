@@ -3,8 +3,6 @@ Infinity is a clean designed responsive HTML5 bootstrap app template that is bui
  
 Infinity is a bootstrap responsive landing page template which means it is mobile and tablet ready, this mean consumers can look at your website and everything will be possible from the comfort of their hands.
 
----
-
 # Author
 
 This template is made by Justin at [Audain Designs.](http://themes.audaindesigns.com)
