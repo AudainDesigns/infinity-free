@@ -13,7 +13,7 @@ All non commercial themes and templates found on Audain Designs are 100% free an
 
 **Other Options**
 
-If you’d like to use this bootstrap template without the attribution link, you can choose to purchase the commercial license: [Purchase Infinity](http://themes.audaindesigns.com/infinity-premium-boostrap-mobile-app/)
+If you’d like to use this bootstrap template without the attribution link, you can choose to purchase the commercial license: [Purchase Infinity](https://gridgum.com/themes/infinity-mobile-app-html5-template/)
 
 #Features
 
